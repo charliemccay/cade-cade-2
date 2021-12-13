@@ -1,0 +1,45 @@
+<Observation>
+    <id value="b8edc62f-0e84-4e01-8406-184efbaf179c"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b8edc62f-0e84-4e01-8406-184efbaf179c"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107681000000100"/>
+            <display value="HDL (high density lipoprotein) cholesterol substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Abbott, Kiera"/>
+    </subject>
+    <effectiveDateTime value="1992-10-13T00:51:00Z"/>
+    <performer>
+        <reference value="Organization/51ed5d7b-b364-45f4-98c6-509a1ef33bcb"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.8"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/0c640e87-c071-4874-beda-8b0ac1f6a227"/>
+
+    </specimen>
+</Observation>

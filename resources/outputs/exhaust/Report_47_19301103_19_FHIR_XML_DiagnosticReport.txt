@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="1a0a38a8-4925-4715-a688-8d093b090375"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/dab02a2c-bf15-46b8-9967-152893c87231"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Howe, Gabriel"/>
+    </subject>
+    <issued value="1938-05-23T00:27:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/fcd184c9-4d5a-435e-9250-a7a4f8207f13"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/7d55ac16-14bb-4295-9e78-fa8dba643b5e"/>
+
+    </result>
+</DiagnosticReport>

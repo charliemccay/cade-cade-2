@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="faf70c7c-0650-467d-9772-cb869a68969e"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/b0e6df31-4f23-49f1-a90b-387345e96ddd"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Abbott, Kiera"/>
+    </subject>
+    <issued value="1992-10-13T00:51:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/51ed5d7b-b364-45f4-98c6-509a1ef33bcb"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/b8edc62f-0e84-4e01-8406-184efbaf179c"/>
+
+    </result>
+</DiagnosticReport>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="e46626cb-52ae-4d17-8f3c-1b1196b69018"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="e46626cb-52ae-4d17-8f3c-1b1196b69018"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1000381000000105"/>
+            <display value="Se prostate specific Ag level"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Flynn, Poppy"/>
+    </subject>
+    <effectiveDateTime value="1991-12-14T00:53:00Z"/>
+    <performer>
+        <reference value="Organization/7e5591ad-2f8c-49da-a569-32deec39d59f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="72"/>
+        <unit value="ug/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="ug/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/f94f80c6-995c-4542-a2c5-4c83739cd7ef"/>
+
+    </specimen>
+</Observation>

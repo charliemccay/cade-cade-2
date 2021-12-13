@@ -1,0 +1,8 @@
+{ "Specimen name": "Venous blood (substance)",
+"Specimen id": "f918b47a-f7ad-426a-bd31-c6004030fe37",
+"Specimen collection date time": "1944-12-28T00:23:00",
+"Specimen received date time": "1944-12-28T00:23:00",
+"Specimen source": "" ,
+"State": "",
+"Volume": "",
+"Units of Measure": "" }

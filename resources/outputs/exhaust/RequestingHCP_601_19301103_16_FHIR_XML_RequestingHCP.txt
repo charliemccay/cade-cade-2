@@ -1,0 +1,13 @@
+<Practitioner>
+    <id value="74be0d8d-c5fe-4555-b120-0bad17444115"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/sds-user-id"/>
+        <value value="G6040649"/>
+    </identifier>
+    <name>
+        <text value="Dr Jane Green"/>
+    </name>
+</Practitioner>

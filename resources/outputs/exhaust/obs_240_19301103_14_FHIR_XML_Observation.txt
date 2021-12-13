@@ -1,0 +1,45 @@
+<Observation>
+    <id value="da3c9fa4-45f6-46b0-9511-ff5a9829fa17"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="da3c9fa4-45f6-46b0-9511-ff5a9829fa17"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1022451000000100"/>
+            <display value="Red blood cell count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Douglas, Kian"/>
+    </subject>
+    <effectiveDateTime value="1970-07-24T01:08:00Z"/>
+    <performer>
+        <reference value="Organization/6353e9a9-1e54-4bae-92c1-62906a09cfe2"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.23"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/51683eda-b573-41d7-b3fd-4f4b1bd6cf6d"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="9b17bc9c-4b5c-4cba-ad20-b4cdedf4ba90"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/5c317ad0-4393-4b17-afb1-c47620f49652"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Flynn, Poppy"/>
+    </subject>
+    <issued value="1991-12-14T00:53:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/7e5591ad-2f8c-49da-a569-32deec39d59f"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/e46626cb-52ae-4d17-8f3c-1b1196b69018"/>
+
+    </result>
+</DiagnosticReport>

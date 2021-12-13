@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="45540a79-fdf0-4de2-9ef9-fba79bf590bc"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/7ac59545-0f31-44a1-99e5-0d83bc1813db"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bates, Jodie"/>
+    </subject>
+    <issued value="1977-05-18T00:40:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/09e03f21-4ef9-4826-af14-1047fe5df861"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/9160a654-7959-43a7-9597-cde5733c77fa"/>
+
+    </result>
+</DiagnosticReport>

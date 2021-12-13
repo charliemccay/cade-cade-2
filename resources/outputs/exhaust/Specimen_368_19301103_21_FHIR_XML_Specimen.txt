@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="ee3244cf-b4f8-44f2-911d-80ce8c880f9e"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ee3244cf-b4f8-44f2-911d-80ce8c880f9e"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Pearce, Jodie"/>
+    </subject>
+    <receivedTime value="1987-08-23T00:21:00Z"/>
+    <collection>
+        <collectedDateTime value="1987-08-23T00:21:00Z"/>
+    </collection>
+</Specimen>

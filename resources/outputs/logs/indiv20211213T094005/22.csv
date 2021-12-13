@@ -1,0 +1,30 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+546,Path1,Initial_patient_GP_Visit,,,,2004-03-28T00:00:00
+546,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,2004-03-28T00:00:00
+547,Path1,patient_assessment,,,,2004-03-28T00:00:00
+548,Path1,test_request,,,,2004-03-28T00:17:00
+548,Path1,test_request,,no_attr,,2004-03-28T00:17:00
+548,Path1,test_request,,PatientRcorded,TRUE,2004-03-28T00:17:00
+549,Path1,Specimen_check,,,,2004-03-28T00:17:00
+549,Path1,Specimen_check,,PerformingOrg,"{'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}",2004-03-28T00:17:00
+549,Path1,Specimen_check,,RequestingHCP,"{'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}",2004-03-28T00:17:00
+549,Path1,Specimen_check,,OrgRequesting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",2004-03-28T00:17:00
+550,Path1,specimen_ready_for_test,,,,2004-03-28T00:17:00
+550,Path1,specimen_ready_for_test,,Request,"{'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}",2004-03-28T00:17:00
+550,Path1,specimen_ready_for_test,,CollectingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",2004-03-28T00:17:00
+550,Path1,specimen_ready_for_test,,OrgCollecting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",2004-03-28T00:17:00
+550,Path1,specimen_ready_for_test,,Specimen1,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",2004-03-28T00:17:00
+550,Path1,specimen_ready_for_test,,Specimen,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",2004-03-28T00:17:00
+551,Path1,lab_test,,,,2004-03-28T00:17:00
+552,Path1,test_report,,,,2004-03-28T00:40:00
+552,Path1,test_report,,PerformingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",2004-03-28T00:40:00
+552,Path1,test_report,,obs,"OrderedDict([('id', '22'), ('code', '993481000000101'), ('DisplayName', 'Mean platelet volume'), ('value', '13.0'), ('unit', 'fL'), ('unit_code', 'fL'), ('system', 'http://unitsofmeasure.org')])",2004-03-28T00:40:00
+553,Path1,send_report,,,,2004-03-28T00:40:00
+554,Path1,receive_report,,,,2004-03-28T00:40:00
+554,Path1,receive_report,,Report,"{'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}",2004-03-28T00:40:00
+555,Path1,GP_checks_report,,,,2004-03-28T00:40:00
+556,Path1,inform_patient,,,,2004-03-28T00:40:00
+557,Path1,Finish,,,,2004-03-28T15:40:00
+557,Path1,Finish,,listing_provided,TRUE,2004-03-28T15:40:00
+557,Path1,Finish,,json_provided,TRUE,2004-03-28T15:40:00
+558,Path1,Finish,,,,2004-03-28T15:40:00

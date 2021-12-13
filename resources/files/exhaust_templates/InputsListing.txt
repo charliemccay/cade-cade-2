@@ -1,0 +1,12 @@
+{# Test file to print out all the available data for use in templates #}
+timestamp: {{ timestamp }}
+activity_time: {{ activity_time }}
+Hist: {{ Hist }}
+Last: {{ Last }}
+----------------------------
+person['Hist']':  {% for key, value in Hist.items() %}
+   {{ key }}: {{ value -}}
+{% endfor %}
+person['Last']':  {% for key, value in Last.items() %}
+   {{ key }}: {{ value -}}
+{% endfor %}

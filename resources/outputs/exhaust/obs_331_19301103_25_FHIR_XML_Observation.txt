@@ -1,0 +1,45 @@
+<Observation>
+    <id value="63db8553-043c-4d2a-8354-6af34945ec03"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="63db8553-043c-4d2a-8354-6af34945ec03"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106511000000100"/>
+            <display value="Chloride substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Cross, Thomas"/>
+    </subject>
+    <effectiveDateTime value="1979-09-19T00:43:00Z"/>
+    <performer>
+        <reference value="Organization/b8440370-3cb4-4237-8a74-bdbeb3b86607"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="107"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/2bd44359-e37e-4ac1-93bb-b17a5d50ad7c"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="b0e6df31-4f23-49f1-a90b-387345e96ddd"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b0e6df31-4f23-49f1-a90b-387345e96ddd"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Abbott, Kiera"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/f66471de-7e15-4a86-ac0f-8f4ed09941ec"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/51ed5d7b-b364-45f4-98c6-509a1ef33bcb"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

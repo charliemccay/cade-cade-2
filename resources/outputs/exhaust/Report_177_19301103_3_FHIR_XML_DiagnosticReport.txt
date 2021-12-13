@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="29401fde-4616-415b-a268-9b564c3838c9"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/27f751c4-0500-449b-a591-3a570e9717fe"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Franklin, Joshua"/>
+    </subject>
+    <issued value="1962-07-10T01:07:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/3a1b302a-565a-4edc-ac88-ad4778aa60d3"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/cfccc0bd-2830-49e2-b7a6-478d4b07368e"/>
+
+    </result>
+</DiagnosticReport>

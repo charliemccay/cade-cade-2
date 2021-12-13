@@ -1,0 +1,19 @@
+<Organization>
+    <id value="64ca816e-76cc-4e3c-bbc1-e1e89b5bfbd7"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="TKD13"/>
+    </identifier>
+    <!--
+    <name value="Midtown District Hospital"/>
+    <address>
+        <line value="Beckett Street"/>
+        <city value="Leeds"/>
+        <district value="West YorkShire"/>
+        <postalCode value="LS9 7TF"/>
+    </address>
+    -->
+</Organization>

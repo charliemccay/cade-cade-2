@@ -1,0 +1,45 @@
+<Observation>
+    <id value="163d06eb-04b6-48a3-9dca-657dcb459552"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="163d06eb-04b6-48a3-9dca-657dcb459552"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107001000000100"/>
+            <display value="Creatinine substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Sims, Rebecca"/>
+    </subject>
+    <effectiveDateTime value="2013-07-18T01:00:00Z"/>
+    <performer>
+        <reference value="Organization/f570b068-8e2f-4bca-8b67-a0ae48df1749"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="64"/>
+        <unit value="umol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="umol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/650bf808-dd98-406b-b25e-11dfb480bd72"/>
+
+    </specimen>
+</Observation>

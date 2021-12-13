@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="b9eb2d41-3610-4fe7-bd16-027abb435d91"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b9eb2d41-3610-4fe7-bd16-027abb435d91"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bryant, Phoebe"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/5362ce91-66d9-40be-b0af-83c30625c7e3"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/ec9714cf-a45c-43ed-a190-ea00950b3a6e"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

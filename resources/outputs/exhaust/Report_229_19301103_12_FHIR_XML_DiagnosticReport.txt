@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="edd8dd36-c6ce-4486-8650-39e67b30e38b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/16ed752e-5f43-461d-8690-1bcfb7b45471"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Nelson, Declan"/>
+    </subject>
+    <issued value="1969-07-11T01:06:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/1f4c7164-02c5-4cf5-bdc0-c5da1ff9f17c"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/5c979331-d01c-45c5-8ed6-e5becf94f120"/>
+
+    </result>
+</DiagnosticReport>

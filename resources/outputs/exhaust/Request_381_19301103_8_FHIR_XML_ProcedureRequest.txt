@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="57f8c5fe-02cd-4c98-9c56-b5a0c9f2b9ac"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="57f8c5fe-02cd-4c98-9c56-b5a0c9f2b9ac"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Donnelly, Jessica"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/d51bbd11-9b2f-4723-978c-e25874b50f88"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/3c850fb9-7f1f-4ac4-9f79-eeb2f8ac1529"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

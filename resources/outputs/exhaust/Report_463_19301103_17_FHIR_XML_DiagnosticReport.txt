@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="30588672-d5e7-4066-a429-f127c81c7aa1"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/f61df5e4-5841-4acb-ae25-d271e064e14b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bolton, Sophia"/>
+    </subject>
+    <issued value="1995-07-22T01:15:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/f2e4819e-7e62-41f7-ba65-6ce083c0c37f"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/a8ba16c5-a840-4ae8-b873-6435982ea6d2"/>
+
+    </result>
+</DiagnosticReport>

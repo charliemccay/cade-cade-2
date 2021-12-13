@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="291aeef9-4912-407a-929b-064b0c4c5f68"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/7803ebba-d2f1-4745-93d9-17ea81482db3"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Blackburn, Tia"/>
+    </subject>
+    <issued value="1937-12-06T01:02:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/fd44c350-32f2-43ed-9318-a26747f117d6"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/0a91d8e6-3bd4-498a-a194-9fb455aafb54"/>
+
+    </result>
+</DiagnosticReport>

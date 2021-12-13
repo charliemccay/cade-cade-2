@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="491cf065-1438-437a-ac45-a8429df29a5c"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/6679a0ce-9316-4d17-903a-a82451f222a5"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Kent, Spencer"/>
+    </subject>
+    <issued value="1997-06-25T00:42:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/85335371-3f9a-49da-bca3-fcd685f7f84d"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/c4654cd1-6417-4ff8-913e-d5aea6760a06"/>
+
+    </result>
+</DiagnosticReport>

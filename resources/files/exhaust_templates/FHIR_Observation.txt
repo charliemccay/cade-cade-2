@@ -1,0 +1,19 @@
+{
+  "resourceType": "Observation",
+  "id": {{ item_id }},
+  "status": "final",
+  "code": {{ This.value.code }},
+  "subject": {
+    "reference": "Patient/{{ PersonID }}"
+  },
+  "effectiveDateTime": "{{ activity_time }}",
+  "valueQuantity": {
+    "value": "{{ This.value.quantity }}",
+    "unit": "{{ This.value.unit }}",
+    "system": "http://unitsofmeasure.org",
+    "code": "{{ This.value.unit }}"
+  }
+}
+
+
+

@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="ef2e6c41-f8a5-40bd-948b-685c5b11e08d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/5cb2cac5-fe80-4a73-ba8b-1b10b4e6c87c"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Pope, Poppy"/>
+    </subject>
+    <issued value="1953-05-24T00:59:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/1cac7bca-9488-4f4d-93f5-648db79e6b48"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/7dbe3e41-4dd1-46b5-9467-3b958ca32477"/>
+
+    </result>
+</DiagnosticReport>

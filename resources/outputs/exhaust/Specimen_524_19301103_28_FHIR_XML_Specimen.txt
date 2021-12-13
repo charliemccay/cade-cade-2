@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="316a1994-27b5-4be8-a9e8-15da9402bf77"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="316a1994-27b5-4be8-a9e8-15da9402bf77"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Hancock, Morgan"/>
+    </subject>
+    <receivedTime value="2002-08-09T00:41:00Z"/>
+    <collection>
+        <collectedDateTime value="2002-08-09T00:41:00Z"/>
+    </collection>
+</Specimen>

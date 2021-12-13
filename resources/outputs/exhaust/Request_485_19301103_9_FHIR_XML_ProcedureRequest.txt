@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="97ac16d5-bb34-4f7b-b960-d4d0ca76b8e1"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="97ac16d5-bb34-4f7b-b960-d4d0ca76b8e1"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Stevenson, Muhammad"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/f43af202-58b0-4e32-969b-a618b2da1bbe"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/c232bb01-402a-49c2-8dc7-46b43364eefe"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

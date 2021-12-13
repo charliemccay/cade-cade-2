@@ -1,0 +1,45 @@
+<Observation>
+    <id value="de82ffd7-61ff-4ba8-9a52-89c37713eb36"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="de82ffd7-61ff-4ba8-9a52-89c37713eb36"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107871000000100"/>
+            <display value="Sodium substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="May, Isabella"/>
+    </subject>
+    <effectiveDateTime value="1967-07-06T01:18:00Z"/>
+    <performer>
+        <reference value="Organization/d9b3b614-593c-4919-a8bf-7422c72f451d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="143"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/910c91c0-bf81-478a-8335-56a2864565e7"/>
+
+    </specimen>
+</Observation>

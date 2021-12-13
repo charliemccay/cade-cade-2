@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="08b7e5c2-1258-4e71-9c0a-b5c5c287d090"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/f8af8d9d-9562-4d59-bac5-2d3f07641293"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Hayes, Taylor"/>
+    </subject>
+    <issued value="1964-04-29T00:46:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/b46efa17-a019-4a31-82cc-34908c171f59"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/ccee689d-921a-474b-91ff-fb7330fc5824"/>
+
+    </result>
+</DiagnosticReport>

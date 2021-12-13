@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="ca86aed6-dcaf-463d-91e8-4f1ac34712ba"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ca86aed6-dcaf-463d-91e8-4f1ac34712ba"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Sims, Rebecca"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/a7b4cee1-fd19-4a0e-bbb5-72f30ec0d8fe"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/f570b068-8e2f-4bca-8b67-a0ae48df1749"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

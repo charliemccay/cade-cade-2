@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="7c8da714-536a-4612-a007-3cdaf53ff717"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="7c8da714-536a-4612-a007-3cdaf53ff717"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Bryant, Phoebe"/>
+    </subject>
+    <receivedTime value="2002-11-24T00:18:00Z"/>
+    <collection>
+        <collectedDateTime value="2002-11-24T00:18:00Z"/>
+    </collection>
+</Specimen>

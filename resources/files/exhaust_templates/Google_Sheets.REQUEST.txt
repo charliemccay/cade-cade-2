@@ -1,0 +1,13 @@
+"Request id": "{{ person.Last.Request.id }}",
+"Client name": "{{ person.OrgRequesting.DisplayName }}",
+"Client id": "{{ person.Last.OrgRequesting.id }}" "{{ person.OrgRequesting.Code }}",
+"GP name": "{{ person.RequestingHCP.DisplayName }}",
+"GP id": "{{ person.Last.RequestingHCP.id }}" "{{ person.RequestingHCP.Code }}",
+"Test code": "{{ person.Request.Code }}",
+"Test name"; "{{ person.Request.DisplayName }}",
+"Test status": "final"
+"GP Name": "{{ person.RequestingHCP.DisplayName }}",
+"GP id": "{{ reference("Practitioner", person.Last.RequestingHCP.id) }}",
+"Lab name": "{{ person.PerformingOrg.DisplayName }}",
+"Lab id": "{{ reference("Organization", person.Last.PerformingOrg.id) }}",
+"Comment": "{{ person.Request.text }}",

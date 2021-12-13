@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="6679a0ce-9316-4d17-903a-a82451f222a5"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="6679a0ce-9316-4d17-903a-a82451f222a5"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Kent, Spencer"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/daf536cd-d047-4995-a184-9cbeb77312dc"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/85335371-3f9a-49da-bca3-fcd685f7f84d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

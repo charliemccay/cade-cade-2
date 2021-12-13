@@ -1,0 +1,19 @@
+<Organization>
+    <id value="{{ Last.OrgRequesting.id }}"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="{{ OrgRequesting.Code }}"/>
+    </identifier>
+    <!--
+    <name value="{{ OrgRequesting.DisplayName }}"/>
+    <address>
+        <line value="{{ OrgRequesting.AddressLine }}"/>
+        <city value="{{ OrgRequesting.AddressCity }}"/>
+        <district value="{{ OrgRequesting.AddressDistrict }}"/>
+        <postalCode value="{{ OrgRequesting.AddressPostalCode }}"/>
+    </address>
+    -->
+</Organization>

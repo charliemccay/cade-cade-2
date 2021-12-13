@@ -1,0 +1,9 @@
+{ "Specimen name": "{{ Specimen1.DisplayName }}",
+"Specimen id": "{{ Last.Specimen1.id }}",
+"Specimen collection date time": "{{ Last.Specimen1.date }}",
+"Specimen received date time": "{{ Last.Specimen1.date }}",
+"Specimen source": "" ,
+"State": "",
+"Volume": "",
+"Units of Measure": "" }
+

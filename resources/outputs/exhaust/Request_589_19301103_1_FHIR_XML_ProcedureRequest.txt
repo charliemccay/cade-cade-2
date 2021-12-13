@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="b2abf645-ebf3-4375-ae02-4e8cf212bdfe"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="b2abf645-ebf3-4375-ae02-4e8cf212bdfe"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="O'Neill, Elizabeth"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/9281813a-98c3-4e67-a279-c92526d75e58"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/f1cf9a16-9949-41d8-96cf-81414bb3cf32"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

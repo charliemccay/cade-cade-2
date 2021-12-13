@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="c09f6ca8-07aa-4910-a846-48f089f552ad"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c09f6ca8-07aa-4910-a846-48f089f552ad"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Adams, Elliot"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/1b936a25-14eb-4279-97fa-b0771f616bbf"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/275d3a17-b2e4-4fbb-b119-4ef1d30c949e"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

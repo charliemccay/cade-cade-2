@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="0722ca4a-c5ae-44fe-a2b7-8c0f07ceb267"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="0722ca4a-c5ae-44fe-a2b7-8c0f07ceb267"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Matthews, Edward"/>
+    </subject>
+    <receivedTime value="1991-04-02T00:43:00Z"/>
+    <collection>
+        <collectedDateTime value="1991-04-02T00:43:00Z"/>
+    </collection>
+</Specimen>

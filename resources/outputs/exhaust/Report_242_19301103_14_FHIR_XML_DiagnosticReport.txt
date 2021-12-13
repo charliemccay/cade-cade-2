@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="185d99e6-1410-44e9-80bf-aaa1e9eb24f3"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/386c4d0e-7f83-46a6-b0d7-3baa1e687b62"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Douglas, Kian"/>
+    </subject>
+    <issued value="1970-07-24T01:08:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/6353e9a9-1e54-4bae-92c1-62906a09cfe2"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/da3c9fa4-45f6-46b0-9511-ff5a9829fa17"/>
+
+    </result>
+</DiagnosticReport>

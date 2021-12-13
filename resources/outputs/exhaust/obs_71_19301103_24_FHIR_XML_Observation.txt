@@ -1,0 +1,45 @@
+<Observation>
+    <id value="e5f96830-2190-47ba-9b56-3c6e6ce78cd2"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="e5f96830-2190-47ba-9b56-3c6e6ce78cd2"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107761000000100"/>
+            <display value="Potassium substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Harris, Abigail"/>
+    </subject>
+    <effectiveDateTime value="1942-04-21T00:43:00Z"/>
+    <performer>
+        <reference value="Organization/9bef19d6-8a5f-459a-b4a2-6d949c0c7e4f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.5"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/ed1abed8-4115-48a6-b886-cc83dc71eba7"/>
+
+    </specimen>
+</Observation>

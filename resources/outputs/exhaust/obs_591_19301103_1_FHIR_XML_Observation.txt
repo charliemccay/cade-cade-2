@@ -1,0 +1,45 @@
+<Observation>
+    <id value="3fe157da-b388-476a-966f-84edeb7dbdde"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="3fe157da-b388-476a-966f-84edeb7dbdde"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1000381000000105"/>
+            <display value="Se prostate specific Ag level"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="O'Neill, Elizabeth"/>
+    </subject>
+    <effectiveDateTime value="2009-01-09T00:45:00Z"/>
+    <performer>
+        <reference value="Organization/f1cf9a16-9949-41d8-96cf-81414bb3cf32"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="72"/>
+        <unit value="ug/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="ug/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/a3cf75ba-336b-41a9-ba30-154ba70464ea"/>
+
+    </specimen>
+</Observation>

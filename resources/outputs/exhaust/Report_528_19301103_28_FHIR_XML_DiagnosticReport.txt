@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="e1b8a477-afd1-4371-843a-87f6ede64987"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/f8365fec-0f97-466c-a9ad-947898dcb369"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Hancock, Morgan"/>
+    </subject>
+    <issued value="2002-08-09T01:01:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/0e8b3835-f48f-4adf-a598-874a7e75f7af"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/aa459112-9b1e-4e8c-9c64-0dd550328e8d"/>
+
+    </result>
+</DiagnosticReport>

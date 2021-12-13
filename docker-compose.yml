@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cade:
+    image: ramseysys/cade-2:latest
+    command: python start.py
+    volumes:
+    - ./resources:/usr/src/app/resources

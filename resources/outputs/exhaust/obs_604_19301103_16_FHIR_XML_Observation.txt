@@ -1,0 +1,45 @@
+<Observation>
+    <id value="dd79e88a-a08e-47c7-95cf-a4653788e020"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="dd79e88a-a08e-47c7-95cf-a4653788e020"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1108071000000100"/>
+            <display value="Neutrophil count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Chamberlain, Alfie"/>
+    </subject>
+    <effectiveDateTime value="2011-10-09T00:44:00Z"/>
+    <performer>
+        <reference value="Organization/ccdf5167-531f-4661-94e1-2f41e3f69805"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.02"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/2b1c48b6-2540-442c-a4b0-3063caee872f"/>
+
+    </specimen>
+</Observation>

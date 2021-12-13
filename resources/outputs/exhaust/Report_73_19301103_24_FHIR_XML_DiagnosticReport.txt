@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="e6842bf9-2feb-45be-9570-26520b344938"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/9a0f9f6a-f4e3-44c8-9662-a171b1970135"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Harris, Abigail"/>
+    </subject>
+    <issued value="1942-04-21T00:43:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/9bef19d6-8a5f-459a-b4a2-6d949c0c7e4f"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/e5f96830-2190-47ba-9b56-3c6e6ce78cd2"/>
+
+    </result>
+</DiagnosticReport>

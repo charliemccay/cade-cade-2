@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="d0c1e9ea-5275-4e7c-8d1c-9564feeae82d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="d0c1e9ea-5275-4e7c-8d1c-9564feeae82d"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Pearce, Jodie"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/cc02d0a1-94f8-4b03-bb9b-7c3d83f4e829"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/a584fc46-e38e-4a2b-8615-0c55a28bd200"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

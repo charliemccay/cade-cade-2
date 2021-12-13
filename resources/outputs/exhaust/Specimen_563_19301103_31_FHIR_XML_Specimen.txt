@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="5eba41ab-735a-4c70-ba9e-143df819a16f"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="5eba41ab-735a-4c70-ba9e-143df819a16f"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Webster, Billy"/>
+    </subject>
+    <receivedTime value="2004-09-04T00:22:00Z"/>
+    <collection>
+        <collectedDateTime value="2004-09-04T00:22:00Z"/>
+    </collection>
+</Specimen>

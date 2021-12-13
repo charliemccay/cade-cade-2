@@ -1,0 +1,30 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+533,Path1,Initial_patient_GP_Visit,,,,2002-11-24T00:00:00
+533,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,2002-11-24T00:00:00
+534,Path1,patient_assessment,,,,2002-11-24T00:00:00
+535,Path1,test_request,,,,2002-11-24T00:18:00
+535,Path1,test_request,,no_attr,,2002-11-24T00:18:00
+535,Path1,test_request,,PatientRcorded,TRUE,2002-11-24T00:18:00
+536,Path1,Specimen_check,,,,2002-11-24T00:18:00
+536,Path1,Specimen_check,,PerformingOrg,"{'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}",2002-11-24T00:18:00
+536,Path1,Specimen_check,,RequestingHCP,"{'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}",2002-11-24T00:18:00
+536,Path1,Specimen_check,,OrgRequesting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",2002-11-24T00:18:00
+537,Path1,specimen_ready_for_test,,,,2002-11-24T00:18:00
+537,Path1,specimen_ready_for_test,,Request,"{'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}",2002-11-24T00:18:00
+537,Path1,specimen_ready_for_test,,CollectingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",2002-11-24T00:18:00
+537,Path1,specimen_ready_for_test,,OrgCollecting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",2002-11-24T00:18:00
+537,Path1,specimen_ready_for_test,,Specimen1,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",2002-11-24T00:18:00
+537,Path1,specimen_ready_for_test,,Specimen,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",2002-11-24T00:18:00
+538,Path1,lab_test,,,,2002-11-24T00:18:00
+539,Path1,test_report,,,,2002-11-24T00:27:00
+539,Path1,test_report,,PerformingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",2002-11-24T00:27:00
+539,Path1,test_report,,obs,"OrderedDict([('id', '27'), ('code', '1107411000000100'), ('DisplayName', 'Estimated glomerular filtration rate by laboratory calculation'), ('value', '90'), ('unit', 'mL/min/1.73m2'), ('unit_code', 'ml/min/{1.73_m2}'), ('system', 'http://unitsofmeasure.org')])",2002-11-24T00:27:00
+540,Path1,send_report,,,,2002-11-24T00:27:00
+541,Path1,receive_report,,,,2002-11-24T00:27:00
+541,Path1,receive_report,,Report,"{'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}",2002-11-24T00:27:00
+542,Path1,GP_checks_report,,,,2002-11-24T00:27:00
+543,Path1,inform_patient,,,,2002-11-24T00:27:00
+544,Path1,Finish,,,,2002-11-24T11:27:00
+544,Path1,Finish,,listing_provided,TRUE,2002-11-24T11:27:00
+544,Path1,Finish,,json_provided,TRUE,2002-11-24T11:27:00
+545,Path1,Finish,,,,2002-11-24T11:27:00

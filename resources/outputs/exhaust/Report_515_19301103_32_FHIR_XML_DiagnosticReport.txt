@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="8bcc5967-fcca-4673-b33a-c1c9c9a570ae"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/3f9fd703-fd5c-4524-b143-07868772edc7"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Field, Alexandra"/>
+    </subject>
+    <issued value="1999-04-29T00:44:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/cf165dda-497c-4c7e-8cf6-1347c7dfd983"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/5f30496c-6027-4e02-b133-34467ffcd041"/>
+
+    </result>
+</DiagnosticReport>

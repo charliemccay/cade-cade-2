@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="f94f80c6-995c-4542-a2c5-4c83739cd7ef"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="f94f80c6-995c-4542-a2c5-4c83739cd7ef"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Flynn, Poppy"/>
+    </subject>
+    <receivedTime value="1991-12-14T00:24:00Z"/>
+    <collection>
+        <collectedDateTime value="1991-12-14T00:24:00Z"/>
+    </collection>
+</Specimen>

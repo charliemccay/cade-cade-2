@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="3ac02f8f-6b08-40a1-a0b2-f6b31fa7a2d5"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/b2abf645-ebf3-4375-ae02-4e8cf212bdfe"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="O'Neill, Elizabeth"/>
+    </subject>
+    <issued value="2009-01-09T00:45:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/f1cf9a16-9949-41d8-96cf-81414bb3cf32"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/3fe157da-b388-476a-966f-84edeb7dbdde"/>
+
+    </result>
+</DiagnosticReport>

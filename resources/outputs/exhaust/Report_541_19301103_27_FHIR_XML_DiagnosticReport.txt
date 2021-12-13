@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="4d9623c8-762c-4cc4-912c-e43a0e228e46"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/b9eb2d41-3610-4fe7-bd16-027abb435d91"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bryant, Phoebe"/>
+    </subject>
+    <issued value="2002-11-24T00:27:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/ec9714cf-a45c-43ed-a190-ea00950b3a6e"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/06fbb25a-afc5-44a5-beff-5595d8299bfa"/>
+
+    </result>
+</DiagnosticReport>

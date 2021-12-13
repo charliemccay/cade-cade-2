@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="5d7ec5c5-3254-4a83-85f8-7c6141ce79df"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="5d7ec5c5-3254-4a83-85f8-7c6141ce79df"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Clark, Lola"/>
+    </subject>
+    <receivedTime value="1944-12-28T00:23:00Z"/>
+    <collection>
+        <collectedDateTime value="1944-12-28T00:23:00Z"/>
+    </collection>
+</Specimen>

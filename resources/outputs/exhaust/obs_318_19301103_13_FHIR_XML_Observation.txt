@@ -1,0 +1,45 @@
+<Observation>
+    <id value="39879cef-a139-428b-b505-810c97bb7438"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="39879cef-a139-428b-b505-810c97bb7438"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1111571000000100"/>
+            <display value="Haematocrit volume fraction of blood"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bennett, Alicia"/>
+    </subject>
+    <effectiveDateTime value="1977-06-14T00:50:00Z"/>
+    <performer>
+        <reference value="Organization/71867d6e-2614-4027-88fc-f36285818c93"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.372"/>
+        <unit value="ratio as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="{ratio}"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/1b4f0998-905c-4bf7-ae1d-6276eb9a65a9"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="5f30496c-6027-4e02-b133-34467ffcd041"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="5f30496c-6027-4e02-b133-34467ffcd041"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="12021000237106"/>
+            <display value="Non-HDL (high density lipoprotein) cholesterol molar concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Field, Alexandra"/>
+    </subject>
+    <effectiveDateTime value="1999-04-29T00:44:00Z"/>
+    <performer>
+        <reference value="Organization/cf165dda-497c-4c7e-8cf6-1347c7dfd983"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="6.9"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/3b5f09b4-0eb5-46cd-9341-90b4e2b1a705"/>
+
+    </specimen>
+</Observation>

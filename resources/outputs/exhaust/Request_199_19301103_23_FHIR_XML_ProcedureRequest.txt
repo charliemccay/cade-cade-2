@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="4177cae7-bf55-4e05-be76-6c10f1e8bae5"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="4177cae7-bf55-4e05-be76-6c10f1e8bae5"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="May, Isabella"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/746387f0-5e45-4615-a509-bc723ed988f0"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/d9b3b614-593c-4919-a8bf-7422c72f451d"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

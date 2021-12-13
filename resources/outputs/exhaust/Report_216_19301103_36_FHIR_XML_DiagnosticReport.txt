@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="3d01cf30-da07-4687-a6b5-c9a69e9a776a"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/c09f6ca8-07aa-4910-a846-48f089f552ad"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Adams, Elliot"/>
+    </subject>
+    <issued value="1967-10-22T01:00:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/275d3a17-b2e4-4fbb-b119-4ef1d30c949e"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/623eec2e-14f3-4914-a268-02d8547910df"/>
+
+    </result>
+</DiagnosticReport>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="9f657f6c-4410-4c7b-bd08-6af6135b09a7"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="9f657f6c-4410-4c7b-bd08-6af6135b09a7"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1022471000000100"/>
+            <display value="MCH - Mean corpuscular haemoglobin"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Godfrey, Jack"/>
+    </subject>
+    <effectiveDateTime value="1942-10-19T00:30:00Z"/>
+    <performer>
+        <reference value="Organization/64ca816e-76cc-4e3c-bbc1-e1e89b5bfbd7"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="31.7"/>
+        <unit value="pg as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="pg"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/6dd04069-fee8-4f7c-892c-0601f8bda5f6"/>
+
+    </specimen>
+</Observation>

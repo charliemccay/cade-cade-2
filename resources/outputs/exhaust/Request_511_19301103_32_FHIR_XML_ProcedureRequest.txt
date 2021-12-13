@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="3f9fd703-fd5c-4524-b143-07868772edc7"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="3f9fd703-fd5c-4524-b143-07868772edc7"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Field, Alexandra"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/f9e8e535-a088-4865-9dae-1f9d357fa892"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/cf165dda-497c-4c7e-8cf6-1347c7dfd983"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="5a007873-81c8-4260-8249-699fa92fd041"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="5a007873-81c8-4260-8249-699fa92fd041"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1109411000000100"/>
+            <display value="TSH (thyroid stimulating hormone) arbitrary concentration in plasma"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Matthews, Edward"/>
+    </subject>
+    <effectiveDateTime value="1991-04-02T01:07:00Z"/>
+    <performer>
+        <reference value="Organization/e0f26aa4-b0e1-4872-a446-621480be1468"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.10"/>
+        <unit value="mU/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mU/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/0722ca4a-c5ae-44fe-a2b7-8c0f07ceb267"/>
+
+    </specimen>
+</Observation>

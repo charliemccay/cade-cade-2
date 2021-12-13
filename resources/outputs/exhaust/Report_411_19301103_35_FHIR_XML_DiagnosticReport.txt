@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="5b876bc3-dad0-4443-99e1-190eeb7866fc"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/78d5fd66-0d7f-4a32-932c-5ff36712ff0b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Matthews, Edward"/>
+    </subject>
+    <issued value="1991-04-02T01:07:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/e0f26aa4-b0e1-4872-a446-621480be1468"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/5a007873-81c8-4260-8249-699fa92fd041"/>
+
+    </result>
+</DiagnosticReport>

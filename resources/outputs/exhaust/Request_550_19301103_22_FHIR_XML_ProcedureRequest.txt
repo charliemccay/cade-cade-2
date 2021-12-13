@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="af7f89bc-b3c8-46c2-b878-f22d20a7bdf0"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="af7f89bc-b3c8-46c2-b878-f22d20a7bdf0"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="May, Lydia"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/35f7ee36-f3da-4991-8530-8da80b902213"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/38253cf2-7d8f-47d8-b59b-919769cf284f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

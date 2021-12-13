@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="2f810b64-f853-4e45-8ee6-807d9bc8d266"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="2f810b64-f853-4e45-8ee6-807d9bc8d266"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Reeves, Louis"/>
+    </subject>
+    <receivedTime value="1942-06-07T00:39:00Z"/>
+    <collection>
+        <collectedDateTime value="1942-06-07T00:39:00Z"/>
+    </collection>
+</Specimen>

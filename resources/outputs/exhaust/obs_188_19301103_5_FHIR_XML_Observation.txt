@@ -1,0 +1,45 @@
+<Observation>
+    <id value="ccee689d-921a-474b-91ff-fb7330fc5824"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ccee689d-921a-474b-91ff-fb7330fc5824"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106511000000100"/>
+            <display value="Chloride substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Hayes, Taylor"/>
+    </subject>
+    <effectiveDateTime value="1964-04-29T00:46:00Z"/>
+    <performer>
+        <reference value="Organization/b46efa17-a019-4a31-82cc-34908c171f59"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="105"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/a1472fb3-0698-4284-b6b1-cd85f1ce7a48"/>
+
+    </specimen>
+</Observation>

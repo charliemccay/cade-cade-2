@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="163ef050-abc9-489b-b3c4-d41855736c09"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/c01ea91a-b9bb-4787-b8c0-3f1004fa4f3c"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Giles, Edward"/>
+    </subject>
+    <issued value="1975-08-29T01:06:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/e7f5820e-b662-44ab-a42d-1add6408ded1"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/633896d4-0841-4633-a22d-916c4229a681"/>
+
+    </result>
+</DiagnosticReport>

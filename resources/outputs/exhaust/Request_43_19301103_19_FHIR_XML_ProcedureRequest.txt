@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="dab02a2c-bf15-46b8-9967-152893c87231"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="dab02a2c-bf15-46b8-9967-152893c87231"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Howe, Gabriel"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/91d56b00-c8dd-4760-ba94-5a17e9fe0577"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/fcd184c9-4d5a-435e-9250-a7a4f8207f13"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="0a55cb71-8ad0-43e0-b7d0-e5a592750ff9"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/3c553269-66be-4a43-a47c-b3ac99706250"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Godfrey, Jack"/>
+    </subject>
+    <issued value="1942-10-19T00:30:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/64ca816e-76cc-4e3c-bbc1-e1e89b5bfbd7"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/9f657f6c-4410-4c7b-bd08-6af6135b09a7"/>
+
+    </result>
+</DiagnosticReport>

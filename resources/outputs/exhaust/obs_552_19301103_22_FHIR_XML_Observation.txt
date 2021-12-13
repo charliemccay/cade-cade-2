@@ -1,0 +1,45 @@
+<Observation>
+    <id value="6f3c3995-ce77-4f01-8651-dcaa1df8dd58"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="6f3c3995-ce77-4f01-8651-dcaa1df8dd58"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="993481000000101"/>
+            <display value="Mean platelet volume"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="May, Lydia"/>
+    </subject>
+    <effectiveDateTime value="2004-03-28T00:40:00Z"/>
+    <performer>
+        <reference value="Organization/38253cf2-7d8f-47d8-b59b-919769cf284f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="13.0"/>
+        <unit value="fL as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="fL"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/26d49ae8-4882-4ba2-8712-9a57b901a285"/>
+
+    </specimen>
+</Observation>

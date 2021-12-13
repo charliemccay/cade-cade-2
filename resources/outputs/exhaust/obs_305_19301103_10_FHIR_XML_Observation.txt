@@ -1,0 +1,45 @@
+<Observation>
+    <id value="9160a654-7959-43a7-9597-cde5733c77fa"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="9160a654-7959-43a7-9597-cde5733c77fa"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107511000000100"/>
+            <display value="Haemoglobin mass concentration in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bates, Jodie"/>
+    </subject>
+    <effectiveDateTime value="1977-05-18T00:40:00Z"/>
+    <performer>
+        <reference value="Organization/09e03f21-4ef9-4826-af14-1047fe5df861"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="134"/>
+        <unit value="g/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="g/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/df4ec93c-0483-46fe-9303-cfc5abb9284b"/>
+
+    </specimen>
+</Observation>

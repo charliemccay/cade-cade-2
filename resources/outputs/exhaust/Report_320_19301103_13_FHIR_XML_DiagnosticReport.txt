@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="d7cb2eff-aa69-4849-a369-b5ecc5128f71"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/b3bbc3cd-221e-4b3b-b88d-73d4bd4eacab"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bennett, Alicia"/>
+    </subject>
+    <issued value="1977-06-14T00:50:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/71867d6e-2614-4027-88fc-f36285818c93"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/39879cef-a139-428b-b505-810c97bb7438"/>
+
+    </result>
+</DiagnosticReport>

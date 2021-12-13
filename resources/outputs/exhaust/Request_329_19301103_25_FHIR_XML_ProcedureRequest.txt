@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="416c8e34-c4fb-414b-9574-ed22e760d11d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="416c8e34-c4fb-414b-9574-ed22e760d11d"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Cross, Thomas"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/76ced06c-fc8a-4bb7-8994-89272aeaabcb"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/b8440370-3cb4-4237-8a74-bdbeb3b86607"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="d6ada02d-622b-4c52-89ec-a9bd155b4e55"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="d6ada02d-622b-4c52-89ec-a9bd155b4e55"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107741000000100"/>
+            <display value="HDL (high density lipoprotein) cholesterol/total cholesterol ratio in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Webster, Billy"/>
+    </subject>
+    <effectiveDateTime value="2004-09-04T00:36:00Z"/>
+    <performer>
+        <reference value="Organization/2c4d3551-e952-4842-a7d8-99affad6ea64"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="9.6"/>
+        <unit value="ratio as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="{ratio}"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/5eba41ab-735a-4c70-ba9e-143df819a16f"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,13 @@
+{ "Patient Name":"{{ Surname }}, {{ GivenName }}",
+"NHS Number": "{{ NhsNumber }}",
+"Patient id": "{{ item_id }}",
+"DOB": "",
+"Gender": "",
+"Postal address": "",
+"Email": "",
+"Phone": "",
+"Hospital / Practice Number": "",
+"GP Name": "",
+"GP postal address": "",
+"GP Email": "",
+"GP Phone": "" }

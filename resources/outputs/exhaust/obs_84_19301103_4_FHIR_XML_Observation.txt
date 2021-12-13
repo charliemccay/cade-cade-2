@@ -1,0 +1,45 @@
+<Observation>
+    <id value="409d2295-9d99-40d6-b671-f83f5ec2bca4"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="409d2295-9d99-40d6-b671-f83f5ec2bca4"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107761000000100"/>
+            <display value="Potassium substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Reeves, Louis"/>
+    </subject>
+    <effectiveDateTime value="1942-06-07T00:41:00Z"/>
+    <performer>
+        <reference value="Organization/8859ae74-eb43-40c3-82e9-79c05c97eebc"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.8"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/2f810b64-f853-4e45-8ee6-807d9bc8d266"/>
+
+    </specimen>
+</Observation>

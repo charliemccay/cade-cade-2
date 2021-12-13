@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="57054887-e594-4d12-96bf-1d62925e5825"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/793e4840-23dd-4493-93ee-c9155dc13ad6"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Reeves, Louis"/>
+    </subject>
+    <issued value="1942-06-07T00:41:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/8859ae74-eb43-40c3-82e9-79c05c97eebc"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/409d2295-9d99-40d6-b671-f83f5ec2bca4"/>
+
+    </result>
+</DiagnosticReport>

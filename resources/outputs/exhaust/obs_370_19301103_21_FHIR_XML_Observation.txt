@@ -1,0 +1,45 @@
+<Observation>
+    <id value="ebd684aa-58d8-4822-b5c5-18223dd91819"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="ebd684aa-58d8-4822-b5c5-18223dd91819"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="993501000000105"/>
+            <display value="Red blood cell distribution width"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Pearce, Jodie"/>
+    </subject>
+    <effectiveDateTime value="1987-08-23T00:44:00Z"/>
+    <performer>
+        <reference value="Organization/a584fc46-e38e-4a2b-8615-0c55a28bd200"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="14"/>
+        <unit value="% as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="%"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/ee3244cf-b4f8-44f2-911d-80ce8c880f9e"/>
+
+    </specimen>
+</Observation>

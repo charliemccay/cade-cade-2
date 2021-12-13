@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="106bccf4-46b6-4600-85cb-5ab361e273ca"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/9c4e2340-47ad-43f3-8261-3e14aabb6b3c"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Evans, Brandon"/>
+    </subject>
+    <issued value="1939-10-03T01:00:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/3494acb7-fe0c-4540-ade9-4936647d5544"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/9c610668-5092-4c37-9f5d-e360848140b2"/>
+
+    </result>
+</DiagnosticReport>

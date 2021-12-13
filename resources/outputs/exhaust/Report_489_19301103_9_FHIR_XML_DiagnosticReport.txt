@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="48060a6a-d491-4489-834a-15af70e7747b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/97ac16d5-bb34-4f7b-b960-d4d0ca76b8e1"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Stevenson, Muhammad"/>
+    </subject>
+    <issued value="1997-08-31T00:58:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/c232bb01-402a-49c2-8dc7-46b43364eefe"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/6505b11e-6f15-409f-be43-21a0c9212180"/>
+
+    </result>
+</DiagnosticReport>

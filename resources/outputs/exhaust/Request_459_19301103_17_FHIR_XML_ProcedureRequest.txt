@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="f61df5e4-5841-4acb-ae25-d271e064e14b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="f61df5e4-5841-4acb-ae25-d271e064e14b"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bolton, Sophia"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/bfd72e30-574a-400b-a84c-e597b8eb6782"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/f2e4819e-7e62-41f7-ba65-6ce083c0c37f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="5c317ad0-4393-4b17-afb1-c47620f49652"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="5c317ad0-4393-4b17-afb1-c47620f49652"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Flynn, Poppy"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/8d90d4ed-deb3-4fac-85b2-0136b042dfc1"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/7e5591ad-2f8c-49da-a569-32deec39d59f"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="f8af8d9d-9562-4d59-bac5-2d3f07641293"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="f8af8d9d-9562-4d59-bac5-2d3f07641293"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Hayes, Taylor"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/f48fcd9d-9446-46c5-8b25-5770ea6553e7"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/b46efa17-a019-4a31-82cc-34908c171f59"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

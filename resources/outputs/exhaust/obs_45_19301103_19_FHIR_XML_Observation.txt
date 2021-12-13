@@ -1,0 +1,45 @@
+<Observation>
+    <id value="7d55ac16-14bb-4295-9e78-fa8dba643b5e"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="7d55ac16-14bb-4295-9e78-fa8dba643b5e"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107391000000100"/>
+            <display value="Eosinophil count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Howe, Gabriel"/>
+    </subject>
+    <effectiveDateTime value="1938-05-23T00:27:00Z"/>
+    <performer>
+        <reference value="Organization/fcd184c9-4d5a-435e-9250-a7a4f8207f13"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="0.06"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/caa69ba8-a7d6-41a0-8e78-610291e4b118"/>
+
+    </specimen>
+</Observation>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="aa459112-9b1e-4e8c-9c64-0dd550328e8d"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="aa459112-9b1e-4e8c-9c64-0dd550328e8d"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1106541000000100"/>
+            <display value="Cholesterol substance concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Hancock, Morgan"/>
+    </subject>
+    <effectiveDateTime value="2002-08-09T01:01:00Z"/>
+    <performer>
+        <reference value="Organization/0e8b3835-f48f-4adf-a598-874a7e75f7af"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="7.7"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/316a1994-27b5-4be8-a9e8-15da9402bf77"/>
+
+    </specimen>
+</Observation>

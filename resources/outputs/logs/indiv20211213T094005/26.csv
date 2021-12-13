@@ -1,0 +1,30 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+286,Path1,Initial_patient_GP_Visit,,,,1975-08-29T00:00:00
+286,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,1975-08-29T00:00:00
+287,Path1,patient_assessment,,,,1975-08-29T00:00:00
+288,Path1,test_request,,,,1975-08-29T00:50:00
+288,Path1,test_request,,no_attr,,1975-08-29T00:50:00
+288,Path1,test_request,,PatientRcorded,TRUE,1975-08-29T00:50:00
+289,Path1,Specimen_check,,,,1975-08-29T00:50:00
+289,Path1,Specimen_check,,PerformingOrg,"{'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}",1975-08-29T00:50:00
+289,Path1,Specimen_check,,RequestingHCP,"{'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}",1975-08-29T00:50:00
+289,Path1,Specimen_check,,OrgRequesting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",1975-08-29T00:50:00
+290,Path1,specimen_ready_for_test,,,,1975-08-29T00:50:00
+290,Path1,specimen_ready_for_test,,Request,"{'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}",1975-08-29T00:50:00
+290,Path1,specimen_ready_for_test,,CollectingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",1975-08-29T00:50:00
+290,Path1,specimen_ready_for_test,,OrgCollecting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",1975-08-29T00:50:00
+290,Path1,specimen_ready_for_test,,Specimen1,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",1975-08-29T00:50:00
+290,Path1,specimen_ready_for_test,,Specimen,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",1975-08-29T00:50:00
+291,Path1,lab_test,,,,1975-08-29T00:50:00
+292,Path1,test_report,,,,1975-08-29T01:06:00
+292,Path1,test_report,,PerformingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",1975-08-29T01:06:00
+292,Path1,test_report,,obs,"OrderedDict([('id', '26'), ('code', '1107001000000100'), ('DisplayName', 'Creatinine substance concentration in serum'), ('value', '58'), ('unit', 'umol/L'), ('unit_code', 'umol/L'), ('system', 'http://unitsofmeasure.org')])",1975-08-29T01:06:00
+293,Path1,send_report,,,,1975-08-29T01:06:00
+294,Path1,receive_report,,,,1975-08-29T01:06:00
+294,Path1,receive_report,,Report,"{'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}",1975-08-29T01:06:00
+295,Path1,GP_checks_report,,,,1975-08-29T01:06:00
+296,Path1,inform_patient,,,,1975-08-29T01:06:00
+297,Path1,Finish,,,,1975-08-29T04:06:00
+297,Path1,Finish,,listing_provided,TRUE,1975-08-29T04:06:00
+297,Path1,Finish,,json_provided,TRUE,1975-08-29T04:06:00
+298,Path1,Finish,,,,1975-08-29T04:06:00

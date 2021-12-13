@@ -1,0 +1,16 @@
+ {"records":[{"key":"{{ item_id }}","value":{"resourceType": "Observation",
+  "id": "{{ item_id }}",
+  "status": "final",
+  "code": {"coding": [{ "system" : "{{This.value.code.coding[0].system}}", "code" : "{{This.value.code.coding[0].code}}", "display": "{{This.value.code.coding[0].display}}"}]},
+  "subject": {
+    "reference": "Patient/{{ patient_id }}"
+  },
+  "effectiveDateTime": "{{ activity_time }}",
+  "valueQuantity": {
+    "value": "{{ This.value.quantity }}",
+    "unit": "{{ This.value.unit }}",
+    "system": "http://unitsofmeasure.org",
+    "code": "{{ This.value.unit }}"
+  }
+}
+}]}

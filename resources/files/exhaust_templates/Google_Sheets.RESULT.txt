@@ -1,0 +1,13 @@
+"Result id": ,
+"Analysis started date time": ,
+"Analysis completed": ,
+"Result sent to GP ": ,
+"Test name": '{{ person.Request.DisplayName }}',
+"Test code": "{{ person.Request.Code }}",
+"Test status": ** the equivalent exists but not in same format **
+"Result Status": ,
+"Lab name": "{{ person.PerformingOrg.DisplayName }}",
+"Lab id": "{{ reference("Organization", person.Last.PerformingOrg.id) }}",
+"Lab technician name": ,
+"Lab technician id": ,
+"Comment": 

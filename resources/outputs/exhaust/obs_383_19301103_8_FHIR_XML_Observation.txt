@@ -1,0 +1,45 @@
+<Observation>
+    <id value="006d9996-7f6f-441d-9c60-a46283237570"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="006d9996-7f6f-441d-9c60-a46283237570"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="15331000237104"/>
+            <display value="Bilirubin total molar concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Donnelly, Jessica"/>
+    </subject>
+    <effectiveDateTime value="1987-12-19T00:45:00Z"/>
+    <performer>
+        <reference value="Organization/3c850fb9-7f1f-4ac4-9f79-eeb2f8ac1529"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="325"/>
+        <unit value="umol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="umol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/6c8b16c5-aa44-487f-96f0-9dee5954d1b3"/>
+
+    </specimen>
+</Observation>

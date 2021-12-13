@@ -1,0 +1,13 @@
+"Observation id": "{{ person.Last.obs.id }}",
+"Test date time": "{{ person.Last.obs.date }}",
+"Test name": "{{ person.obs.DisplayName }}", 
+"Test code": "{{ person.obs.code }}", 
+"Specimen name": "{{ person.Specimen.DisplayName }}",
+"Specimen id": "{{ reference("Specimen", person.Last.Specimen.id) }}",
+"Test component":
+"Value": "{{ person.obs.value }}",
+"Unit": "{{ person.obs.unit }}",
+"Interpretation": 
+"Unit code": "{{ person.obs.unit_code }}",
+"Reference range":,
+"Patient id": "{{ reference("Patient", person.Last.PatientRcorded.id) }}", 

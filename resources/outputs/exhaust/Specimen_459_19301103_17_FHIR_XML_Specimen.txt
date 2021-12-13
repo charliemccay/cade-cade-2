@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="d44cd5dc-3271-47e9-845f-1b6cb1b8a494"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="d44cd5dc-3271-47e9-845f-1b6cb1b8a494"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Bolton, Sophia"/>
+    </subject>
+    <receivedTime value="1995-07-22T00:50:00Z"/>
+    <collection>
+        <collectedDateTime value="1995-07-22T00:50:00Z"/>
+    </collection>
+</Specimen>

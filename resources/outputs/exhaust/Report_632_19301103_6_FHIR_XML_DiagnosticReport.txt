@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="4bed2303-788d-44e8-9a20-aebb3dd92dc9"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/ca86aed6-dcaf-463d-91e8-4f1ac34712ba"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Sims, Rebecca"/>
+    </subject>
+    <issued value="2013-07-18T01:00:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/f570b068-8e2f-4bca-8b67-a0ae48df1749"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/163d06eb-04b6-48a3-9dca-657dcb459552"/>
+
+    </result>
+</DiagnosticReport>

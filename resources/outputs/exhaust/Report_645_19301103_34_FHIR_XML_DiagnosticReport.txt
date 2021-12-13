@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="bf97253a-5550-4d17-8bab-5683fd6b9248"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/69d1db4a-e158-43d8-9047-c13080b90a29"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Oliver, Tom"/>
+    </subject>
+    <issued value="2014-01-28T00:48:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/e4607bfe-4ef6-475a-9993-04014a8afa0a"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/c3e8d6ea-27d5-467d-99fa-08df65eb08f9"/>
+
+    </result>
+</DiagnosticReport>

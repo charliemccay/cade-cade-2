@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="2f845522-3ad1-49ee-b11a-05f0ca3eb43b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/dd597d36-4f9a-4ed4-8283-086fcc8b9c4b"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Bryant, Alexandra"/>
+    </subject>
+    <issued value="1972-07-25T00:42:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/69470673-b66d-4f5c-8609-4573b38dc063"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/3e1d6691-3b7b-4273-b0b6-f57b50594ec1"/>
+
+    </result>
+</DiagnosticReport>

@@ -1,0 +1,45 @@
+<Observation>
+    <id value="623eec2e-14f3-4914-a268-02d8547910df"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="623eec2e-14f3-4914-a268-02d8547910df"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1109401000000100"/>
+            <display value="Free T4 (thyroxine) mass concentration in serum"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Adams, Elliot"/>
+    </subject>
+    <effectiveDateTime value="1967-10-22T01:00:00Z"/>
+    <performer>
+        <reference value="Organization/275d3a17-b2e4-4fbb-b119-4ef1d30c949e"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="19.0"/>
+        <unit value="pmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="pmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/26f597ba-b27d-4ae3-90f8-0bd23ff8552b"/>
+
+    </specimen>
+</Observation>

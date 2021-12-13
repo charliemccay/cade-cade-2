@@ -1,0 +1,45 @@
+<Observation>
+    <id value="c3e8d6ea-27d5-467d-99fa-08df65eb08f9"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="c3e8d6ea-27d5-467d-99fa-08df65eb08f9"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1107011000000100"/>
+            <display value="Creatinine substance concentration in urine"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Oliver, Tom"/>
+    </subject>
+    <effectiveDateTime value="2014-01-28T00:48:00Z"/>
+    <performer>
+        <reference value="Organization/e4607bfe-4ef6-475a-9993-04014a8afa0a"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="4.2"/>
+        <unit value="mmol/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mmol/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/17e7e8a2-3014-476b-8656-b48cb05868b3"/>
+
+    </specimen>
+</Observation>

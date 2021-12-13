@@ -1,0 +1,44 @@
+{% from "FHIR_XML_Reference.txt" import reference with context -%}
+<Observation>
+    <id value="{{ Last.obs.id }}"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="{{ Last.obs.id }}"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="{{ obs.code }}"/>
+            <display value="{{ obs.DisplayName }}"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="{{ Surname }}, {{ GivenName }}"/>
+    </subject>
+    <effectiveDateTime value="{{ Last.obs.date }}Z"/>
+    <performer>
+        {{ reference("Organization", Last.PerformingOrg.id) }}
+        <display value="{{ PerformingOrg.DisplayName }}"/>
+    </performer>
+    <valueQuantity>
+        <value value="{{ obs.value }}"/>
+        <unit value="{{ obs.unit }} as text"/>
+        <system value="{{ obs.system }}"/>
+        <code value="{{ obs.unit_code }}"/>
+    </valueQuantity>
+    <specimen>
+        {{ reference("Specimen", Last.Specimen.id) }}
+    </specimen>
+</Observation>

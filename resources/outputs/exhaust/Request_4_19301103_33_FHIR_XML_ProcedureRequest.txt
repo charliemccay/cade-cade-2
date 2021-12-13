@@ -1,0 +1,37 @@
+<ProcedureRequest>
+    <id value="5f125a6e-b1c7-4d8d-8c4c-ca6a2b5fa38e"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="5f125a6e-b1c7-4d8d-8c4c-ca6a2b5fa38e"/>
+    </identifier>
+    <status value="active"/>
+    <intent value="order"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="26604007"/>
+            <display value="FBC - Full blood count"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="O'Neill, Samantha"/>
+    </subject>
+    <requester>
+        <agent>
+            <reference value="Practitioner/e9c362e2-f236-4fcb-8ba6-d3e03b6a0883"/>
+
+            <display value="Dr Jane Green"/>
+        </agent>
+    </requester>
+    <performer>
+        <reference value="Organization/bc925efb-36c9-4fb3-a07a-81c4dd531740"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <note>
+        <text value="FBC"/>
+    </note>
+</ProcedureRequest>

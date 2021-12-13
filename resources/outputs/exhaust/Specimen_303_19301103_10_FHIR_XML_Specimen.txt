@@ -1,0 +1,25 @@
+<Specimen>
+    <id value="df4ec93c-0483-46fe-9303-cfc5abb9284b"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="df4ec93c-0483-46fe-9303-cfc5abb9284b"/>
+    </identifier>
+    <status value="available"/>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="53130003"/>
+            <display value="Venous blood (substance)"/>
+        </coding>
+    </type>
+    <subject>
+        <display value="Bates, Jodie"/>
+    </subject>
+    <receivedTime value="1977-05-18T00:13:00Z"/>
+    <collection>
+        <collectedDateTime value="1977-05-18T00:13:00Z"/>
+    </collection>
+</Specimen>

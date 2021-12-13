@@ -1,0 +1,45 @@
+<Observation>
+    <id value="0a91d8e6-3bd4-498a-a194-9fb455aafb54"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"/>
+        <value value="0a91d8e6-3bd4-498a-a194-9fb455aafb54"/>
+    </identifier>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="394595002"/>
+            <display value="Pathology (qualifier value)"/>
+        </coding>
+    </category>
+    <!--What is being tested-->
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1110441000000100"/>
+            <display value="White blood cell count in blood"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Blackburn, Tia"/>
+    </subject>
+    <effectiveDateTime value="1937-12-06T01:02:00Z"/>
+    <performer>
+        <reference value="Organization/fd44c350-32f2-43ed-9318-a26747f117d6"/>
+
+        <display value="Midtown District Hospital"/>
+    </performer>
+    <valueQuantity>
+        <value value="6.1"/>
+        <unit value="10^9/L as text"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="10*9/L"/>
+    </valueQuantity>
+    <specimen>
+        <reference value="Specimen/180896d7-9a32-4281-8dc3-6f20cdea53be"/>
+
+    </specimen>
+</Observation>

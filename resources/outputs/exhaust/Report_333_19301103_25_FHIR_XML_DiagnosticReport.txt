@@ -1,0 +1,33 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="47771628-1b68-4b73-a7b6-aa1de8fd3f78"/>
+    <meta>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1"/>
+    </meta>
+    <!--Test Request Summary-->
+    <basedOn>
+        <reference value="ProcedureRequest/416c8e34-c4fb-414b-9574-ed22e760d11d"/>
+    </basedOn>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="721981007"/>
+            <display value="Diagnostic studies report"/>
+        </coding>
+    </code>
+    <subject>
+        <display value="Cross, Thomas"/>
+    </subject>
+    <issued value="1979-09-19T00:43:00Z"/>
+    <performer>
+        <actor>
+        <reference value="Organization/b8440370-3cb4-4237-8a74-bdbeb3b86607"/>
+
+        <display value="Midtown District Hospital"/>
+        </actor>
+    </performer>
+    <result>
+        <reference value="Observation/63db8553-043c-4d2a-8354-6af34945ec03"/>
+
+    </result>
+</DiagnosticReport>
